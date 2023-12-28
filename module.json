@@ -1,0 +1,70 @@
+{
+  "id": "planescape-collection",
+  "title": "Planescape Collection",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "bh3lliom",
+      "discord": "bh3lliom",
+      "email": "https://twitter.com/bh3lliom",
+      "url": "https://startplaying.games/gm/bh3lliom",
+      "download": "",
+      "manifest": "https://raw.githubusercontent.com/SvenWerlen/moulinette-core/main/module.json",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "planescape-actors",
+      "label": "Planescape Actors",
+      "path": "packs/planescape-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "planescape-items",
+      "label": "Planescape Items",
+      "path": "packs/planescape-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "planescape-journals",
+      "label": "Planescape Journals",
+      "path": "packs/planescape-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "planescape-scenes",
+      "label": "Planescape Scenes",
+      "path": "packs/planescape-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
