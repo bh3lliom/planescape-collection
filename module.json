@@ -12,8 +12,8 @@
       "discord": "bh3lliom",
       "email": "https://twitter.com/bh3lliom",
       "url": "https://startplaying.games/gm/bh3lliom",
-      "download": "",
-      "manifest": "https://raw.githubusercontent.com/SvenWerlen/moulinette-core/main/module.json",
+      "download": "test",
+      "manifest": "test",
       "flags": {}
     }
   ],
